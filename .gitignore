@@ -1,0 +1,21 @@
+# Vivado files and folders
+*.cache/
+*.hbs/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/
+*.runs/
+src/bd/**/hw_handoff/
+src/bd/**/ip/
+src/bd/**/ipshared/
+src/bd/**/sim/
+src/bd/**/synth/
+src/bd/**/ui/
+src/bd/**/*.bxml
+src/bd/**/*.xdc
+.Xil/
+*.xpr
+*.jou
+*.log
+*.str
