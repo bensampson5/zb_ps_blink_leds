@@ -1,21 +1,19 @@
-# Vivado files and folders
-*.cache/
-*.hbs/
-*.hw/
-*.ip_user_files/
-*.sim/
-*.srcs/
-*.runs/
-src/bd/**/hw_handoff/
-src/bd/**/ip/
-src/bd/**/ipshared/
-src/bd/**/sim/
-src/bd/**/synth/
-src/bd/**/ui/
-src/bd/**/*.bxml
-src/bd/**/*.xdc
+# Vivado files and folders to ignore
 .Xil/
-*.xpr
 *.jou
 *.log
 *.str
+xsim.dir/
+xvlog.pb
+hw/proj
+hw/src/bd/**/hdl/
+hw/src/bd/**/hw_handoff/
+hw/src/bd/**/ip/
+hw/src/bd/**/ipshared/
+hw/src/bd/**/sim/
+hw/src/bd/**/synth/
+hw/src/bd/**/ui/
+hw/src/bd/**/*.bxml
+hw/src/bd/**/*.xdc
+
+# Vitis files and folder to ignore
