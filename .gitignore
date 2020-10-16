@@ -5,7 +5,7 @@
 *.str
 xsim.dir/
 xvlog.pb
-hw/proj
+hw/proj/
 hw/src/bd/**/hdl/
 hw/src/bd/**/hw_handoff/
 hw/src/bd/**/ip/
@@ -17,3 +17,4 @@ hw/src/bd/**/*.bxml
 hw/src/bd/**/*.xdc
 
 # Vitis files and folder to ignore
+sw/proj/
